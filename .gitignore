@@ -1,3 +1,14 @@
+# Data files
+*.json
+*.jpg
+*.jpeg
+*.png
+*.zip
+*.tar
+*.gz
+*.7z
+
+# Python
 __pycache__/
 *.py[cod]
 *$py.class
@@ -18,20 +29,33 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
-.env
-.venv
-env/
+
+# Virtual Environment
 venv/
+env/
 ENV/
-env.bak/
-venv.bak/
+
+# IDE
 .idea/
 .vscode/
 *.swp
 *.swo
+
+# OS
 .DS_Store
-.ipynb_checkpoints
-*.ipynb
+Thumbs.db
+
+# Project specific
+coco_dataset/
+temp_dataset/
+smaller_publaynet_dataset/
+yolo_dataset/
+
+# Common Python artifacts
+.env
+.venv
+.env.bak/
+venv.bak/
 *.log
 .coverage
 htmlcov/
